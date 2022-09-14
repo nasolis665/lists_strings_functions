@@ -25,10 +25,21 @@ print(splitText[3])
 # 5. if statements and comparisons in **python** **bold text**
 # 6. by the end of the week, you will learn to develop a text parser, a program that the user will enter any kind of text and the code will give them any information about that text: you will have to learn the index method, extracting sub-strings, methods and properties of string.
 # ## copy this to your own drive
-
+birthday_guests=["femi","will", "Luis"]
+Christmas_guests=["hou","Jessie","Tom"]
 # # First lets go over simpler index methods
 # 
-
+newList=birthday_guests + Christmas_guests
+print(newList)
+print(newList.remove("Tom"))
+print(newList)
+newList.append("Rebecca")
+newList.append("Jose")
+newList.append("James")
+print(newList)
+print(newList.sort())
+print(newList)
+print(len(newList))
 # In[ ]:
 
 
