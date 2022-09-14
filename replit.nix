@@ -1,5 +1,8 @@
 { pkgs }: {
   deps = [
+    pkgs.nettools
+    pkgs.openssh_with_kerberos
+    pkgs.sudo
     pkgs.python38Full
   ];
   env = {
